@@ -18,10 +18,13 @@
                 <p>EduVoyage</p>
             </div>
             <div class="menu">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars"onclick="showMenu"></i>
             </div>
-            <nav>
+            <nav id="navLinks">
                 <ul>
+                    <div id="close">
+                        <i class="fa fa-times"onclick="hideMenu"></i>
+                    </div>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">COURSE</a></li>
@@ -42,5 +45,14 @@
             </div>
         </div>
     </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>

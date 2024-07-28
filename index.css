@@ -88,9 +88,6 @@ nav ul li:hover::after{
     display: none;
 }
 @media(max-width:420px){
-    nav{
-        display: none;
-    }
     .heading p{
         font-size: 25px;
     }
@@ -114,5 +111,24 @@ nav ul li:hover::after{
     }
     .header{
         padding-top: 40px;
+    }
+
+    nav ul{
+        display: block;
+        position: absolute;
+        background-color: #f44336;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #close{
+        color: #fff;
+        font-size: large;
+        font-weight: bold;
     }
 }
