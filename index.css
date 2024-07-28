@@ -87,6 +87,9 @@ nav ul li:hover::after{
 .menu {
     display: none;
 }
+#close{
+    display: none;
+}
 @media(max-width:420px){
     .heading p{
         font-size: 25px;
@@ -136,3 +139,6 @@ nav ul li:hover::after{
         font-weight: bold;
     }
 }
+
+/* second viewport */
+
