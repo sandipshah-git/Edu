@@ -113,8 +113,7 @@ nav ul li:hover::after{
         padding-top: 40px;
     }
 
-    nav ul{
-        display: block;
+    nav{
         position: absolute;
         background-color: #f44336;
         top: 0;
@@ -122,9 +121,14 @@ nav ul li:hover::after{
         width: 200px;
         height: 100%;
         padding: 20px;
+        transition: all;
+        transition: 1s;
+    }
+    nav ul{
         display: flex;
         flex-direction: column;
         gap: 15px;
+
     }
     #close{
         color: #fff;
