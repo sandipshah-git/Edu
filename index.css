@@ -106,4 +106,13 @@ nav ul li:hover::after{
         display: block;
         color: #fff;
     }
+    .discription{
+        padding: 0px 80px;
+    }
+    .heading p{
+        font-size: 40px;
+    }
+    .header{
+        padding-top: 40px;
+    }
 }
