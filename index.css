@@ -87,9 +87,13 @@ nav ul li:hover::after{
 .menu {
     display: none;
 }
-#close{
-    display: none;
+
+@media(min-width:420px){
+    #close{
+        display: none;
+    }
 }
+
 @media(max-width:420px){
     .heading p{
         font-size: 25px;
@@ -140,5 +144,55 @@ nav ul li:hover::after{
     }
 }
 
+
 /* second viewport */
 
+.courses {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.corse-discrptn {
+    text-align: center;
+    padding: 10px 10% 30px 10%;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 0px 5%;
+}
+.secondDiv{
+    padding-bottom: 300px;
+}
+.box{
+    background-color: #fff3f3;
+    border-radius: 10px;
+}
+.box p{
+    color: #777;
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+}
+.corse-discrptn p{
+    color: #777;
+}
+.box h3{
+    text-align: center;
+    padding-top: 40px;
+}
+.box:hover{
+    transition: all 0.5s;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width:420px){
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .corse-discrptn p{
+        font-size: small;
+    }
+}
