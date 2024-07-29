@@ -260,7 +260,7 @@ nav ul li:hover::after{
     transition: all 0.5s;
 }
 .spanclass:hover span{
-    bottom: 70%;
+    bottom: 75%;
     opacity: 1;
 }
 @media(max-width:550px){
@@ -271,6 +271,9 @@ nav ul li:hover::after{
     .third-div p{
         padding: 0px 20px;
         font-size: 15px;
+    }
+    .spanclass:hover span{
+        bottom: 70%;
     }
 }
 
@@ -423,7 +426,6 @@ nav ul li:hover::after{
 }
 
 
-/* jsjfa */
 /* footer  */
 
 
