@@ -260,7 +260,7 @@ nav ul li:hover::after{
     transition: all 0.5s;
 }
 .spanclass:hover span{
-    bottom: 75%;
+    bottom: 70%;
     opacity: 1;
 }
 @media(max-width:550px){
